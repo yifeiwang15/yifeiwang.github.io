@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Yifei Wang
+  display: Yifei Wang
   given: Yifei
   family: Wang
   alternate: '王艺霏'  # Example: 王伟
@@ -10,13 +10,11 @@ name:
   pronouns: she/her
 postnominals:
   - PhD
-  - MIEEE
 status:
   icon: ""
 role: Machine Learning Research Fellow
 bio: |
   I am now working at Biogen as an AI researcher, focusing on AI-aided drug design. 
-  I received my Ph.D. degree in Computer Science at Brandeis University. 
   I blog about my publications and recent news. 
   I am actively collaborating with those interested in cutting-edge AI topics like AI4Science, and am always happy to assist junior students who are keen on pursuing research. Feel free to reach out via email if you'd like to collaborate or discuss research ideas. 😃
 
@@ -48,70 +46,99 @@ interests:
 
 education:
   - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+    institution: Brandeis University
+    start: 2020-01-15
+    end:  2020-02-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      - GPA: 4.0/4.0
+      - Research Focus: Graph Representational Learning on Molecules, Fairness within Medical Contexts
+    # button:
+    #   text: Download dissertation
+    #   url: /resume.pdf
+    #   icon: hero/arrow-down-tray
+  - degree: BS Mathematics
+    institution: Tsinghua University
+    start: 2015-08-31
+    end: 2019-07-16
+
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Research Trainee
+    org: Brigham and Women’s Hospital & Harvard Medical School
+    start: 2022-08-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
+      - Detected and evaluated fairness and bias in healthcare AI decision systems.
+      - Improved reliability and interpretability of healthcare AI models using EHR data across ML models and LLMs.
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
+  - role: Algorithm Intern
+    org: XtalPi Inc. 
+    start: 2019-07-22
     end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      - Implemented a transformer-like architecture for retrosynthetic reaction path prediction.
+      - Improved model architectures and training strategies. Refined the pipeline of reaction prediction.
 skills:
-  - name: Technical Skills
+  # - name: Working Skills
+  #   items:
+  #     - label: Programming
+  #       level: 5
+  #     - label: Machine Learning
+  #       level: 5
+  #     - label: 
+  #       level: 5
+  # - name: Research & Communication
+  #   items:
+  #     - label: Academic Writing
+  #       level: 5
+  #     - label: Conference Presentations
+  #       level: 5
+  #     - label: Soft Skills
+  #       level: 5
+  - name: Working Skills
     items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - name: Programming
+        description: 'Familiar with most Python packages such as Numpy, Pandas, Sklearn, Pytorch, Pytorch Geometric, Transformers, Diffusion, Peft, etc. Also familiar with MATLAB and R.'
+        percent: 100
+        icon: ''
+      - name: Research Skills
+        description: 'Algorithm Development, Theoretical Proof, Quantitative Analysis, Experiment Design, Interdisciplinary collaboration, Presentation, Writing and Communication.'
+        percent: 100
+        icon: 
+      - name: Soft Skills
+        description: 'Time Management, Problem Solving, Project Management, Collaboration, Mentorship.'
+        percent: 100
+        icon: ''
 
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Cooking
+        description: 'After spending a year at home during the COVID-19 pandemic, I’ve mastered the art of becoming a chef! I enjoy cooking Chinese, Japanese, and American cuisine.'
+        percent: 100
+        icon: ''
+      - name: Gaming
+        description: 'Big fan of many anime-style games such as Genshin Impact, Honkai Star Rail, Fate Grand Order, Pokemon, and Animal Crossing. Next pull you will get a 5-star item!'
+        percent: 100
+        icon: ''
+      - name: Singing
+        description: 'Used to be a soprano in the Chorus Team of the Tsinghua University Student Art Troupe.'
+        percent: 100
+        icon: ''
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
+  - name: Chinese
+    level: 5
+    label: Native
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy
