@@ -48,7 +48,7 @@ education:
   - degree: PhD Computer Science
     institution: Brandeis University
     start: 2020-01-15
-    end:  2020-02-01
+    end:  2025-02-01
     summary: |
       - GPA: 4.0/4.0
       - Research Focus: Graph Representational Learning on Molecules, Fairness within Medical Contexts
@@ -81,22 +81,6 @@ experience:
       - Implemented a transformer-like architecture for retrosynthetic reaction path prediction.
       - Improved model architectures and training strategies. Refined the pipeline of reaction prediction.
 skills:
-  # - name: Working Skills
-  #   items:
-  #     - label: Programming
-  #       level: 5
-  #     - label: Machine Learning
-  #       level: 5
-  #     - label: 
-  #       level: 5
-  # - name: Research & Communication
-  #   items:
-  #     - label: Academic Writing
-  #       level: 5
-  #     - label: Conference Presentations
-  #       level: 5
-  #     - label: Soft Skills
-  #       level: 5
   - name: Working Skills
     items:
       - name: Programming
@@ -130,11 +114,11 @@ skills:
         icon: ''
 languages:
   - name: English
-    level: 5
-    label: Fluent
+    description: Fluent
+    percent: 90
   - name: Chinese
-    level: 5
-    label: Native
+    description: Native
+    percent: 100
 
 # awards:
 #   - title: Best Paper Award
