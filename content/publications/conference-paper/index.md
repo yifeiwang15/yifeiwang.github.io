@@ -39,7 +39,7 @@ tags:
   - Fairness
 
 # Display this page in the Featured widget?
-featured: true
+featured: False
 
 # Standard identifiers for auto-linking
 # hugoblox:
