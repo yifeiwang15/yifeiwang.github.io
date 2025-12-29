@@ -63,9 +63,16 @@ education:
 
 
 experience:
+  - role: Machine Learning Research Fellow
+    org: Biogen
+    start: 2025-02-17
+    summary: |
+      - AI-aided drug design
+      - Generative AI for small molecule design
   - role: Research Trainee
     org: Brigham and Women’s Hospital & Harvard Medical School
     start: 2022-08-01
+    end: 2024-08-01
     summary: |
       - Detected and evaluated fairness and bias in healthcare AI decision systems.
       - Improved reliability and interpretability of healthcare AI models using EHR data across ML models and LLMs.
