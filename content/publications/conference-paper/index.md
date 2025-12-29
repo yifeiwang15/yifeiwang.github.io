@@ -1,36 +1,83 @@
 ---
-title: "On dyadic fairness: Exploring and mitigating bias in graph connections."
+title: 'An example conference paper'
+
+# Authors
+# If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
+# and it will be replaced with their full name and linked to their profile.
 authors:
-  - Peizhao Li
   - me
-  - Han Zhao
-  - Pengyu Hong
-  - Hongfu Liu
-# author_notes:
-#   - Equal contribution
-#   - Equal contribution
-date: "2021-01-12T00:00:00Z"
-publishDate: "2021-01-12T00:00:00Z"
-publication_types:
-  - paper-conference
-publication: In *International Conference on Learning Representations*
-publication_short: In *ICLR*
-abstract: Disparate impact has raised serious concerns in machine learning applications and its societal impacts. In response to the need of mitigating discrimination, fairness has been regarded as a crucial property in algorithmic designs. In this work, we study the problem of disparate impact on graph-structured data. Specifically, we focus on dyadic fairness, which articulates a fairness concept that a predictive relationship between two instances should be independent of the sensitive attributes. Based on this, we theoretically relate the graph connections to dyadic fairness on link predictive scores in learning graph neural networks, and reveal that regulating weights on existing edges in a graph contributes to dyadic fairness conditionally. Subsequently, we propose our algorithm, FairAdj, to empirically learn a fair adjacency matrix with proper graph structural constraints for fair link prediction, and in the meanwhile preserve predictive accuracy as much as possible. Empirical validation demonstrates that our method delivers effective dyadic fairness in terms of various statistics, and at the same time enjoys a favorable fairness-utility tradeoff.
-summary: We theoretically relate the graph connections to dyadic fairness on link predictive scores in learning graph neural networks and accordingly introduced an algorithm for fair link prediction by adjusting the adjacency weight matrix to address the fairness-utility trade-off.
+  - Robert Ford
+
+# Author notes (optional)
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+
+date: '2013-07-01T00:00:00Z'
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2017-01-01T00:00:00Z'
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ['paper-conference']
+
+# Publication name and optional abbreviated publication name.
+publication: In *Hugo Blox Builder Conference*
+publication_short: In *ICW*
+
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+# Summary. An optional shortened abstract.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
 tags:
-  - Graph Neural Network
-  - Fairness
+  - Large Language Models
+
+# Display this page in the Featured widget?
 featured: true
-hugoblox: []
+
+# Standard identifiers for auto-linking
+hugoblox:
+  ids:
+    doi: 10.5555/123456
+
+# Custom links
 links:
-  - "type: pdf"
-  - "type: code"
-  - "type: dataset"
-  - "type: source"
-  - "type: video"
-image: []
+  - type: pdf
+    url: ""
+  - type: code
+    url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: dataset
+    url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: slides
+    url: https://www.slideshare.net/
+  - type: source
+    url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: video
+    url: https://youtube.com
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  focal_point: ''
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
 projects:
   - example
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
 slides: ""
 ---
 
