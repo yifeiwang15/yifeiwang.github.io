@@ -1,59 +1,63 @@
 ---
-title: "An example preprint / working paper"
+title: "COVID-19 Trend Forecasting Using State-level Mobility and Policy"
 authors:
-- me
-date: "2019-04-07T00:00:00Z"
+  - me
+  - Hao Peng
+  - Long Sha
+  - Zheyuan Liu
+  - Pengyu Hong
+date: "2021-01-06T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-01-06T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["preprint"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "medRxiv"
+publication_short: "medRxiv"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 'The importance of pandemic forecast cannot be overemphasized. We propose an interpretable machine learning approach for forecasting pandemic transmission rates by utilizing local mobility statistics and government policies. A calibration step is introduced to deal with time-varying relationships between transmission rates and predictors. Experimental results demonstrate that our approach is able to make accurate two-week ahead predictions of the state-level COVID-19 infection trends in the US. Moreover, the models trained by our approach offer insights into the spread of COVID-19, such as the association between the baseline transmission rate and the state-level demographics, the effectiveness of local policies in reducing COVID-19 infections, and so on. This work provides a good understanding of COVID-19 evolution with respect to state-level characteristics and can potentially inform local policymakers in devising customized response strategies.'
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 'We estimated the transmission rates of COVID-19 via robust regression on local mobility statistics as well as local policies.'
 
 tags:
-- Large Language Models
+- Linear Regression
+- COVID-19 Prediction
 
-featured: true
+featured: False
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+# hugoblox:
+#   ids:
+#     arxiv: 
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
+- type: pdf
+  url: 'https://www.medrxiv.org/content/10.1101/2021.01.04.21249218.abstract'
 - type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+  url: 'https://github.com/yifeiwang15/COVID-19-Mobility'
+# - type: slides
+#   url: https://www.slideshare.net/
+# - type: dataset
+#   url: "#"
+# - type: poster
+#   url: "#"
+# - type: source
+#   url: "#"
+# - type: video
+#   url: https://youtube.com
+# - type: custom
+#   label: Custom Link
+#   url: http://example.org
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -62,20 +66,20 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+# projects:
+# - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+# slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+<!-- This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
