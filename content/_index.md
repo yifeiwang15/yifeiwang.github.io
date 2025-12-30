@@ -59,7 +59,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 3
+      columns: 2
       css_class: 'width: 300px; margin: 0 auto;'
       spacing:
         padding: [0, 0, 0, 0]
