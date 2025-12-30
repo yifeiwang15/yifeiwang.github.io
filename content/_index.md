@@ -58,7 +58,7 @@ sections:
           - publications
         featured_only: true
     design:
-      view: card
+      view: image-title-summary #article-grid
       columns: 2
   - block: collection
     content:
@@ -109,7 +109,7 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
