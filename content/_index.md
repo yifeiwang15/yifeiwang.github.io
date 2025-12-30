@@ -20,8 +20,9 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        education: 'PhD'
-        interests: 'AI4Science'
+        # education: 'PhD'
+        interests: Deep Learning, AI4Science, AI For Drug Discovery, Generative AI, Reinforcement Learning,  Fairness
+
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
