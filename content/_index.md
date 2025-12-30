@@ -82,7 +82,8 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: article-grid
+      columns: 3
   - block: collection
     id: news
     content:
@@ -113,7 +114,7 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card
-    demo: false # Only display this section in the Hugo Blox Builder demo site
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-

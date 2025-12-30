@@ -25,7 +25,7 @@ all_day: false
 publishDate: '2023-04-07T15:00:00Z'
 
 authors:
-  - admin
+  - me
 
 tags: 
   - Graph Neural Network

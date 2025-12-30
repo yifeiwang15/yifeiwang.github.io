@@ -24,7 +24,7 @@ all_day: false
 publishDate: '2023-11-01T15:00:00Z'
 
 authors:
-  - admin
+  - me
 
 tags: 
   - Fairness

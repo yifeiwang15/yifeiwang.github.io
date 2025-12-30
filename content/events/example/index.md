@@ -32,7 +32,7 @@ tags:
   - Open Science
   - Academic
 
-featured: true
+featured: False
 
 image:
   caption: 'Presentation freedom with Markdown'
