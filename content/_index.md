@@ -25,10 +25,8 @@ sections:
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
-        image:
-        filename: stacked-peaks.svg
-        # gradient_mesh:
-        #   enable: true
+        gradient_mesh:
+          enable: true
 
       # Name heading sizing to accommodate long or short names
       name:
@@ -105,7 +103,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
+      view: date-title-summary
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
