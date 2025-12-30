@@ -162,8 +162,8 @@ hugoblox:
     toc:
       enable: true
     # Reading time estimates
-    # reading_time:
-    #   enable: false
+    reading_time:
+      enable: false
     # Academic citations
     citations:
       style: chicago                        # apa | mla | chicago | ieee
