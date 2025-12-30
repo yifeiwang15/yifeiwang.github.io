@@ -60,7 +60,7 @@ sections:
     design:
       view: article-grid
       columns: 2
-      css_class: 'max-w-lg mx-auto'
+      css_class: 'width: 300px; margin: 0 auto;'
   - block: collection
     content:
       title: Recent Publications
