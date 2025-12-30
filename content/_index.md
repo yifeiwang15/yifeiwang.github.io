@@ -25,8 +25,10 @@ sections:
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
-        gradient_mesh:
-          enable: true
+        image:
+        filename: stacked-peaks.svg
+        # gradient_mesh:
+        #   enable: true
 
       # Name heading sizing to accommodate long or short names
       name:
@@ -58,7 +60,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: collection
     content:
       title: Recent Publications
