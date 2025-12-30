@@ -70,7 +70,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "none"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "compact"
     # Avatar shape in author profiles
