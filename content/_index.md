@@ -59,8 +59,11 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
       css_class: 'width: 300px; margin: 0 auto;'
+      spacing:
+        padding: [0, 0, 0, 0]
+      
   - block: collection
     content:
       title: Recent Publications
