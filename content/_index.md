@@ -20,8 +20,8 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        education: ''
-        interests: ''
+        education: 'PhD'
+        interests: 'AI4Science'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
@@ -58,7 +58,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 3
+      columns: 2
   - block: collection
     content:
       title: Recent Publications
