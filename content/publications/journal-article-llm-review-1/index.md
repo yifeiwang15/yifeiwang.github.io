@@ -45,7 +45,7 @@ tags:
   - Survey 
 
 # Display this page in the Featured widget?
-featured: True
+featured: false
 
 # Standard identifiers for auto-linking
 hugoblox:
