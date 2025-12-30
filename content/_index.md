@@ -58,8 +58,9 @@ sections:
           - publications
         featured_only: true
     design:
-      view: image-title-summary #article-grid
+      view: article-grid
       columns: 2
+      css_class: 'max-w-lg mx-auto'
   - block: collection
     content:
       title: Recent Publications
